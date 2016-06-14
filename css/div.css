@@ -1,0 +1,13 @@
+div.info {
+    font-family: "monospace", Arial, sans-serif;
+    font-style: oblique;
+
+    padding: 1em;
+    margin: 1em;
+
+    background: #454545;
+    color: #eeeeee;
+
+    line-height: 2em;
+    box-shadow: 0 0.2em 0.8em 0 rgba(0, 0, 0, 0.48);
+}

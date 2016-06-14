@@ -1,0 +1,26 @@
+ul.info {
+    padding: 0;
+}
+
+ul.info li {
+    display: inline;
+}
+
+ul.info li a {
+    color: #ffffff;
+    background: #151515;
+
+    margin: 0.25em;
+    padding: 1em 1.5em 1em 1.5em;
+
+    border-radius: 0.2em;
+    box-shadow: 0 0.2em 0.4em 0 rgba(0, 0, 0, .32);
+
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.info li a:hover {
+    background: #4caf50;
+    box-shadow: 0 0.2em 0.8em 0 rgba(0, 0, 0, 0.48);
+}

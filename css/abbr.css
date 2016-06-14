@@ -1,0 +1,12 @@
+abbr.info {
+    color: #454545;
+}
+
+abbr.info:hover,
+abbr.info:focus {
+    color: #eeeeee;
+    background: #151515;
+
+    border-radius: 4%;
+    outline: 0.1em solid #454545;
+}

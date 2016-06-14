@@ -1,0 +1,12 @@
+img.info {
+    height: 6em;
+    width: 6em;
+
+    border-radius: 50%;
+    box-shadow: 0 0.2em 0.4em 0 rgba(0, 0, 0, .32);
+}
+
+img.info:hover,
+img.info:active {
+    box-shadow: 0 0.4em 0.4em 0 rgba(0, 0, 0, .48);
+}

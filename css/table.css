@@ -1,0 +1,35 @@
+table.info {
+    font-family: "DejaVu Sans Mono", Arial, sans-serif;
+    font-size: 16px;
+
+    width: 96%;
+    max-width: 96%;
+
+    height: 96%;
+    max-height: 96%;
+
+    border-collapse: collapse;
+    outline: 0.1em solid #454545;
+}
+
+table.info td,
+table.info th {
+    border: 0.1em solid #454545;
+    outline: 0.1em hidden #454545;
+
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+table.info th {
+    color: #ffffff;
+    background: #4caf50;
+}
+
+table.info tr:nth-child(odd) {
+    background: #eeeeee;
+}
+
+table.info tr:nth-child(even) {
+    background: #dddddd;
+}

@@ -1,0 +1,30 @@
+@import "/bower_components/bootstrap/dist/css/bootstrap.css";
+@import "/bower_components/font-awesome/css/font-awesome.css";
+
+body {
+    font: 14px/1.2 Arial, sans-serif;
+}
+
+mark {
+    background: #fff000;
+}
+
+a:link {
+    color: #0059b2;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #ba1000;
+}
+
+a:active {
+    color: #ff1200;
+}
+
+input[type="range"] {
+    width: inherit;
+}

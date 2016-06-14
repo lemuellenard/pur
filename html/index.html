@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="refresh" content="">
+
+    <title>index</title>
+
+    <link rel="icon" href=/favicon.ico>
+    <link rel="stylesheet" type="text/css" href="/css/default.css">
+
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!--CURRENT-->
+
+    <link rel="stylesheet" type="text/css" href="/css/abbr.css">
+    <link rel="stylesheet" type="text/css" href="/css/table.css">
+    <link rel="stylesheet" type="text/css" href="/css/ul.css">
+    <link rel="stylesheet" type="text/css" href="/css/div.css">
+    <link rel="stylesheet" type="text/css" href="/css/a.css">
+    <link rel="stylesheet" type="text/css" href="/css/img.css">
+    <link rel="stylesheet" type="text/css" href="">
+
+
+</head>
+<body>
+<div align="center" style="margin-bottom: 25px; margin-top: 25px">
+
+    <div id="menu">
+        <a href="#tags">tags</a><br/>
+        <a href="#table">table</a><br/>
+        <a href="#ul">ul</a><br/>
+        <a href="#div">div</a><br/>
+        <a href="#form">form</a><br/>
+        <a href="#img">img</a>
+    </div>
+    <hr/>
+
+    <div id="tags" style="line-height: 1.5em">
+        <h3>header</h3>
+        <address>address</address>
+        <pre>prefixed</pre>
+        <blockquote>blockquote</blockquote>
+        <b>bold</b><br/>
+        <strong>strong</strong><br/>
+        <i>italic</i><br/>
+        <em>emphasized</em><br/>
+        <sub>subscripted</sub><br/>
+        <sup>superscripted</sup><br/>
+        <q>quote</q><br/>
+        <samp>sample</samp><br/>
+        <code>code</code><br/>
+        <var>var</var><br/>
+        <del>deleted</del>
+        <br/>
+        <ins>inserted</ins>
+        <br/>
+        <small>small</small>
+        <br/>
+        <mark>mark</mark>
+        <br/>
+        <bdo dir="rtl">ltr odb</bdo><br/>
+        <img src="/favicon.ico" alt="favicon" width="16" height="16"><br/>
+        <abbr title="info" class="info">info</abbr><br/>
+        <a href="index.html" target="_top" class="info">info</a><br/>
+        <span style="color: #FF0000">red</span><br/>
+        <span style="color: #00FF00">green</span><br/>
+        <span style="color: #0000FF">blue</span><br/>
+        <span style="color: #808080">grey</span><br/>
+        &amp; &pound; &euro; &copy; &reg; &sum; &trade; &rarr; &larr;
+    </div>
+    <hr/>
+
+    <div id="table">
+        <table class="info">
+            <tr>
+                <th>First</th>
+                <th>Second</th>
+                <th>Third</th>
+            </tr>
+            <tr>
+                <td>Fourth</td>
+                <td>Fifth</td>
+                <td>Sixth</td>
+            </tr>
+            <tr>
+                <td>Seventh</td>
+                <td>Eights</td>
+                <td>Ninth</td>
+            </tr>
+            <tr>
+                <td>Tenth</td>
+                <td>Eleventh</td>
+                <td>Twelfths</td>
+            </tr>
+            <tr>
+                <td>Thirteens</td>
+                <td>Fourteens</td>
+                <td>Sixteens</td>
+            </tr>
+        </table>
+    </div>
+    <hr/>
+
+    <div id="ul">
+        <ul class="info">
+            <li><a href="index.html">Section</a></li>
+            <li><a href="index.html">Division</a></li>
+            <li><a href="index.html">Partition</a></li>
+        </ul>
+    </div>
+    <hr/>
+
+    <div id="div">
+        <div class="info">
+            He as compliment unreserved projecting.<br/>
+            Between had observe pretend delight for believe.<br/>
+            Do newspaper questions consulted sweetness do.<br/>
+            Our sportsman his unwilling fulfilled departure law.<br/>
+            Now world own total saved above her cause table.<br/>
+            Wicket myself her square remark the should far secure sex.
+        </div>
+    </div>
+    <hr/>
+
+    <div id="form">
+        <form action="index.html" method="post"
+              target="_blank" accept-charset="utf-8" enctype="application/x-www-form-urlencoded" autocomplete="on">
+            <p>
+                Plain:<br/>
+                <input type="text" name="text"
+                       minlength="8" maxlength="24" size="16" placeholder="text"> <!--autofocus-->
+            </p>
+            <p>
+                Hidden:<br/>
+                <input type="password" name="password"
+                       minlength="8" maxlength="32" size="16" placeholder="password" disabled>
+            </p>
+            <p>
+                Block:<br/>
+                <input type="email" name="email"
+                       minlength="8" maxlength="48" size="16" placeholder="email" required>
+            </p>
+            <p>
+                <select name="select" title="">
+                    <option value="value1">value1</option>
+                    <option value="value2">value2</option>
+                    <option value="value3">value3</option>
+                </select>
+            </p>
+            <p>
+                <input list="list" title="">
+                <datalist id="list">
+                    <option value="value1">value1</option>
+                    <option value="value2">value2</option>
+                    <option value="value3">value3</option>
+                </datalist>
+            </p>
+            <p>
+                <input type="number" name="number"
+                       min="1" max="16" title="" required>
+            </p>
+            <p>
+                <input type="date" name="date"
+                       min="2006-06-06" title="" required>
+            </p>
+            <p>
+                <input type="range" name="range"
+                       min="0" max="16" title="" required>
+            </p>
+            <p>
+                <input type="file" name="file"
+                       title="" multiple required>
+            </p>
+            <p>
+                <label>vote1<input type="radio" name="vote" value="vote1" checked></label>
+                <label>vote2<input type="radio" name="vote" value="vote2"></label>
+                <label>vote3<input type="radio" name="vote" value="vote3"></label>
+            </p>
+            <p>
+                <button type="submit" name="submit"
+                        formenctype="multipart/form-data" formaction="index.html" formmethod="post">
+                    submit
+                </button>
+            </p>
+        </form>
+    </div>
+    <hr/>
+
+    <div id="img">
+        <p>
+            <a href="index.html"><img src="/src/lemuel.jpg" class="info"></a>
+        </p>
+    </div>
+
+</div>
+</body>
+</html>
